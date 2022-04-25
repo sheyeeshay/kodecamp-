@@ -1,0 +1,166 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+ width: 80%;
+ margin: 0 auto;
+}
+
+.process-section{
+ padding: 80px 0;
+}
+
+.process-text{
+ width: 45%;
+ margin: 0 auto;
+}
+.process-text h1{
+ padding-top: 20px;
+ margin-bottom: 30px;
+ font-size: 48px;
+}
+.process-text p{
+ color: #808080;
+ font-size: 20px;
+}
+.orange-btn{
+  background: #ff8303;
+  border-radius: 12px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 40px;
+  margin-top: 50px;
+  margin-right: 5px;
+  color: #ffff;
+  font-size: 22px;
+}
+
+.text-box p{
+   color: #808080;
+  font-size: 20px;
+ 
+}
+.img-box{
+  width: 50%;
+  margin-right: 20px;
+}
+.process-img{
+  width: 50px;
+}
+.dotted-straight-line{
+ height: 80px;
+ border-left: 2px dotted #fd5602;
+ margin-left: 25px;
+ margin-bottom: 20px;
+ margin-top: -80px;
+}
+/* what we offer section */
+#offer-section{
+ padding: 50px 0;
+}
+#offer-section{
+ background: #eeeeee;
+}
+
+ margin: auto;
+}
+.flex-box{
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+   height: 180px;
+   width:  180px;
+   text-align: center;
+   color: black;
+   margin-right: 1%;
+   margin-bottom: 1%;  
+   background-color: #ffffff;
+}
+.flex-box-selected{
+ background-color: #dd571c;
+ color: #ffffff;
+  font-weight: bold;
+  width: 180px;
+  height: 180px;
+  padding-top: 40px;
+  padding-left: 20px;
+  text-align: center;
+}
+.flex-box p{
+  padding-top: 5px;
+}
+.flex-box:hover{
+ background-color: #dd571c;
+ color: #ffffff;
+ font-weight: bold;
+}
+
+.offer-link{
+  display:flex;
+  justify-content: flex-end;
+}
+.offer-link a{
+ text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+.offer-link a:hover{
+ color: #dd571c;
+}
+
+/* get in touch section */
+#get-in-touch{
+ padding: 5px 0;
+}
+#get-in-touch{
+ background: #eeeeee;
+ height: 70vh;
+}
+.contact-us-bg{
+ background: url(https://res.cloudinary.com/lovelyfin00/image/upload/v1650401199/work%20images/Image_1.png);
+background-position:center;
+background-size: cover;
+ width: 50%;
+  height: 40vh;
+}
+.flex-property{
+    display: flex;
+   justify-content: space-between;
+    width: 100%;
+    margin: 0 auto ;
+}  
+.ratings{
+   margin-top: 20px;
+}
+.ratings-amount{
+ color: #a32cc4;
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 35px;
+}
+.ratings p{
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.ratings-amount:hover{
+ color: #dd571c;
+}
+ /* brands we serve section */
+.brands-served h5{
+ text-align: center;
+  font-size: 25px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+#brands-section{
+ padding-bottom: 30px;
+}
+.brand-div{
+ display: flex;
+ justify-content: center;
+ width: 70%;
+}
