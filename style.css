@@ -1,0 +1,555 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+ width: 80%;
+ margin: 0 auto;
+}
+.main-header{
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+.right-section ul{
+  list-style: none;
+  display: flex;
+}
+
+.right-section{
+ display: flex;
+ align-items: center;
+}
+
+.right-section ul li{
+ margin-right: 20px;
+}
+.right-section ul li a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.road-assistance{
+  display: flex;
+  padding-left: 20px;
+}
+
+.right-section .navigation{
+  border-right: 2px solid #ccc
+}
+
+.road-assistance .icon{
+  margin-right: 10px;
+}
+.flex{
+  display: flex;
+}
+
+.process-section{
+ padding: 80px 0;
+}
+
+.process-text{
+ width: 45%;
+ margin: 0 auto;
+}
+.process-text h1{
+ padding-top: 20px;
+ margin-bottom: 30px;
+ font-size: 48px;
+}
+.process-text p{
+ color: #808080;
+ font-size: 20px;
+}
+.orange-btn{
+  background: #ff8303;
+  border-radius: 12px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 40px;
+  margin-top: 50px;
+  margin-left: 15px;
+  color: #ffff;
+  font-size: 22px;
+  border:none;
+}
+.flex{
+  display: flex;
+}
+#hero-section .text-section{
+ width: 45%; 
+}
+ #hero-section .image-section{
+  background-image: url(https://res.cloudinary.com/lovelyfin00/image/upload/v1650365219/work%20images/bg-image.png); 
+ background-size: cover;
+ background-position: center;
+height: 100vh;
+width: 55%
+}
+#hero-section, #quote-section{
+ padding: 75px 0;
+}
+.text-section h1{
+ font-size: 64px;
+}
+.time-section{
+  display: flex;
+  margin-top: 30px;
+ align-items: center;
+}
+.time-section img{
+  width: 80%;
+}
+.text-section .image-box{
+ width: 10%;
+ margin-right: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.text-section .time-text{
+ width: 85%;
+}
+.light-grey{
+ color: #939191;
+}
+ /* quote section */
+#quote-section{
+  background: #eeeeee;
+}
+#quote-section .left-section, #quote-section .right-quote-section{
+  width: 47%;
+}
+#quote-section ul{
+ list-style: none;
+}
+#quote-section ul li{
+ margin-bottom: 20px;
+}
+#quote-section .left-section h2{
+  margin-bottom: 30px;
+  font-size: 58px;
+}
+#quote-section .left-section .image-box{
+ width: 8%;
+ margin-right: 10px;
+}
+#quote-section .left-section .text-box{
+ width: 60%;
+}
+#quote-section .left-section .image-box img {
+    width: 100%;
+}
+#quote-section .left-section .text-box h5{
+ font-size: 24px;
+ margin-bottom: 5px;
+}
+#quote-section .right-quote-section h3{
+  font-size: 46px;
+  margin-bottom: 30px;
+}
+#quote-section .right-quote-section input{
+  width: 100%;
+   padding: 20px;
+   margin-bottom: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 25px;
+}
+.form{
+  margin-top: 20px;
+}
+.know-more{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+input:focus{
+    border-color: #f66539;
+    outline: 0;
+   
+}
+ /* style process section */
+.process-quote{
+  width: 45%;
+  margin: 0 auto;
+}
+.text-box h2{
+  padding-bottom: 10px;
+  font-size: 25px;
+  margin-right: 20px;
+}
+.text-box p{
+   color: #808080;
+  font-size: 20px;t
+ 
+}
+.img-box{
+  width: 50%;
+  padding-left: 20px;
+}
+.process-img{
+  width: 50px;
+}
+.dotted-straight-line{
+ height: 80px;
+ border-left: 2px dotted #fd5602;
+ margin-left: 40px;
+ margin-bottom: 20px;
+ margin-top: -80px;
+}
+/* what we offer section */
+#offer-section{
+ padding: 50px 0;
+}
+#offer-section{
+ background: #eeeeee;
+}
+#offer-section h5{
+text-align: center;
+ font-size: 15px;
+}
+#offer-section h3{
+ text-align: center;
+ font-size: 24px;
+ padding-top: 10px;
+ margin: 0 auto 40px auto ;
+}
+.flex-body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 80%;
+ margin: auto;
+}
+.flex-box{
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+   height: 180px;
+   width:  180px;
+   text-align: center;
+   color: black;
+   margin-right: 1%;
+   margin-bottom: 1%;  
+   background-color: #ffffff;
+}
+.flex-box-selected{
+ background-color: #dd571c;
+ color: #ffffff;
+  font-weight: bold;
+  width: 180px;
+  height: 180px;
+  padding-top: 40px;
+  padding-left: 20px;
+  text-align: center;
+}
+.flex-box p{
+  padding-top: 5px;
+}
+.flex-box:hover{
+ background-color: #dd571c;
+ color: #ffffff;
+ font-weight: bold;
+}
+.offer-link{
+  display:flex;
+  justify-content: flex-end;
+}
+.offer-link a{
+ text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+.offer-link a:hover{
+ color: #dd571c;
+}
+/* get in touch section */
+#get-in-touch{
+ padding: 5px 0;
+}
+#get-in-touch{
+ background: #eeeeee;
+ height: 70vh;
+}
+.contact-us-bg{
+ background: url(https://res.cloudinary.com/lovelyfin00/image/upload/v1650401199/work%20images/Image_1.png);
+background-position:center;
+ background-size: cover;
+ width:50%;
+ height: 40vh;
+}
+
+.contact-flexbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ margin-left: 35%;
+  height: 40vh;
+   width: 107%;
+  background-color: #dd571c;
+}
+.contact-text h4{
+  padding-top: 20px;
+  text-align: center;
+  margin-right: 3px;
+  margin-left: 3px;
+  width: 55%;
+  color: #ffffff;
+  font-size: 18px;
+}
+.black-btn{
+  background: black;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 4px 10px;
+  margin-left: 25px;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 13px;
+}
+.contact-us-bg2{
+ background: url(https://res.cloudinary.com/lovelyfin00/image/upload/v1650401309/work%20images/ovGrEUgrkyE.png);
+ background-position: center;
+ background-size: cover;
+ width: 50%;
+  height: 40vh;
+}
+.flex-property{
+    display: flex;
+   justify-content: space-between;
+    width: 100%;
+    margin: 0 auto ;
+}  
+.ratings{
+   margin-top: 20px;
+}
+.ratings-amount{
+ color: #a32cc4;
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 35px;
+}
+.ratings p{
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.ratings-amount:hover{
+ color: #dd571c;
+}
+/* brands we serve section */
+.brands-served h5{
+ text-align: center;
+  font-size: 45px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+#brands-section{
+ padding-bottom: 30px;
+}
+.brand-div{
+ display: flex;
+  align-items: center;
+ justify-content: center;
+ width: 70%;
+}
+.brand-img{ 
+  display: flex;
+   align-items: center;
+  justify-content: center;
+}
+ /*customer review */
+
+#customers-review{
+ padding: 80px 0;
+ background: #eeeeee;
+ min-height: 100vh;
+}
+
+#customers-review h3{
+ text-align: center;
+ font-size: 40px;
+ margin-bottom: 30px;
+}
+
+#customers-review .reviews {
+  display: flex;
+  justify-content: space-between;
+}
+#customers-review .review-box{
+ background: #ffffff;
+ width: 49%;
+ height: 350px;
+ padding-left: 25px;
+}
+.profile{
+ margin-top: 30px;
+ margin-bottom: 10px;
+ margin-left: 15px;
+}
+.profile img {
+  width:100%;  
+}
+#customers-review .review-box p{
+ line-height: 34px;
+  font-size: 17.5px;
+  color: #000000;
+  letter-spacing: -0.03em;
+  font-family: arial;
+  
+}
+#customers-review .review-text{
+  width: 80%;
+  padding: 12px;
+}
+#customers-review .review-text p{
+ font-size: 20px;
+ color: #939191;
+}
+#customers-review .review-text h5{
+font-size: 17px;
+padding-left: 5px;
+}
+ #customers-review .link{
+ display: flex;
+ justify-content: flex-end;
+}
+.cir{ 
+  width: 30px;
+  border: 5px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+.cir p{
+  padding: 10px;
+  text-align:center;
+}
+ /*freq ask question section*/
+#freq-ask-ques{
+ background: #eeeeee;
+ padding: 80px 0;
+ min-height: 100vh;
+}
+#freq-ask-ques .container{
+ width: 60%;
+ margin: 0 auto;
+}
+#freq-ask-ques h3{
+ font-size: 41px;
+ text-align: center;
+ padding-bottom: 70px;
+}
+.faq-box1{
+  background: #ffffff;
+ width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+} 
+.faq-text h6{
+  font-size: 24px;
+  font-weight: 350;
+   font-family: sans-serif;
+}
+#freq-ask-ques .faq-box1 .faq-text p{
+ line-height: 30px;
+  font-size: 20px;
+  color: grey;
+   margin-top: 7px;
+}
+#freq-ask-ques .faq-box2{
+ background: #ffffff;
+ width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  margin: 7px;
+}
+#freq-ask-ques .faq-box1 .faq-img img{
+  width: 90%;
+  margin-bottom: 70px;
+  margin-left: 15px;
+}
+#freq-ask-ques .faq-box2 .faq-img img{
+ width: 40px;
+}
+ /* get in touch service*/
+ 
+#service-section{
+ background: #1e1b1b;
+  opacity: 0.97;
+} 
+#service-section .service-body{
+ width: 100%;
+ justify-content: space-between;
+}
+#service-section .service-left-section{
+ width: 40%;
+}
+#service-section .service-left-section h3{
+ color: #ffffff;
+ font-size: 40px;
+ margin-top: 40px;
+ margin-bottom: 50px;
+ letter-spacing: -0.02em;
+}
+#service-section .service-left-section img{
+ margin-right: 20px;
+}
+#service-section .service-right-section6{
+ width: 40%;
+ padding-top: 20px;
+}
+#service-section .service-right-section .right-text{
+  margin-top: 30px;
+ padding-bottom: 10px;
+ margin-bottom: 30px;
+}
+#service-section .service-right-section .right-text p{
+font-size:20px;
+  color:#ffffff;
+  Opacity:0.5;
+}
+#service-section .service-right-section .right-text h6{
+ color: #ffffff;
+ font-size: 16px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  letter-spacing: -0.05em;
+}
+#service-section .footer{
+ width: 100%;
+ background: #000000;
+ margin: 0 auto;
+ justify-content: space-between;
+  align-items: center;
+ padding: 10px 120px;
+}
+#service-section .footer-text ul{
+ list-style: none;
+ display: flex
+}
+#service-section .footer-text ul li a{
+ text-decoration: none;
+ color: #ffffff;
+}
+#service-section .footer-text ul li{
+ margin-right: 20px;
+ font-size: 15px;
+}
+#service-section .footer p{
+ color: #939191;
+ font-size: 15px;
+}
+#service-section .footer .footer-logo{
+ margin-right: 30px;
+}
