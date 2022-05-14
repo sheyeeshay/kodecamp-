@@ -360,11 +360,7 @@ background-position:center;
  justify-content: center;
  width: 70%;
 }
-.brand-img{ 
-  display: flex;
-   align-items: center;
-  justify-content: center;
-}
+
  /*customer review */
 
 #customers-review{
@@ -487,7 +483,13 @@ padding-left: 5px;
 #service-section{
  background: #1e1b1b;
   opacity: 0.97;
-} 
+}
+
+/*#service-section .container
+ width: 80%;
+ margin: 0 auto;
+}*/ 
+
 #service-section .service-body{
  width: 100%;
  justify-content: space-between;
@@ -552,4 +554,88 @@ font-size:20px;
 }
 #service-section .footer .footer-logo{
  margin-right: 30px;
+}
+
+ /* mobile view */
+
+ @media (max-width: 470px){
+    .main-header{
+  flex-direction: column;
+   align-items: flex-start;
+}
+  .right-section .navigation ul{
+   flex-direction: column;
+}
+  .right-section{
+   flex-direction: column;
+    align-items: flex-start;
+    display: none;
+}
+  .right-section ul li{
+   padding: 10px 0;
+   margin-right: 0;
+    width: 100%;
+}
+   .right-section .navigation{
+  border: none;
+    width: 100%;
+}
+  .right-section ul li a{
+   display: block;
+}
+  .road-assistance{
+   padding: 10px 0;
+  }
+    .flex-sm-column{
+  flex-direction: column;
+}
+  #hero-section .image-section{
+   width: 100%;
+   order: 1;
+}
+  #hero-section .text-section{
+  width: 100%;
+  order: 2;
+}
+  .text-section h1{
+ font-size: 35px;
+ padding-top: 25px;
+}
+  .quote-flex{
+ flex-direction: column;
+} 
+  #quote-section .left-section, #quote-section .right-quote-section{
+ width: 100%;
+}
+  #quote-section .left-section .image-box{
+   width: 10%;
+}
+  #quote-section .left-section .text-box{
+    width: 80%;
+ }
+  #quote-section .left-section h2, #quote-section .right-quote-section h3{
+   font-size: 33px;
+    text-align: center;
+}
+  #quote-section .left-section{
+  margin-bottom: 40px;
+}
+
+  .process-section .process-text, .process-section .process-quote{
+    width: 100%;
+}
+  .process-section .process-text h1{
+   width: 100%;
+   font-size: 35px;
+}
+  .process-section .process-text p{
+    width: 100%;
+}
+  .process-section .process-text{
+   margin-bottom: 45px;
+}
+  .process-section .process-quote .text-box h2{
+    padding-top: 0;
+}
+
 }
